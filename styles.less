@@ -1,0 +1,34 @@
+body {
+  > table {
+    // header image
+    &:first-child {
+      display: none;
+    }
+
+    &:nth-child(2) > tbody {
+      // quick-links bar
+      > tr:first-child {
+        display: none;
+      }
+
+      > tr:nth-child(2) {
+        > td {
+          // side bars
+          &:first-child, &:last-child {
+            display: none;
+          }
+
+          &:nth-child(2) > font {
+            // ad
+            > div:first-child {
+              display: none;
+            }
+            > br {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

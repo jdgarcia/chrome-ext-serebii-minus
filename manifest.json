@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Serebii Minus",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": ["http://www.serebii.net/pokedex-sm/*.shtml"],
+      "css": ["styles.css"]
+    }
+  ]
+}
