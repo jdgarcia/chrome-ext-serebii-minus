@@ -5,7 +5,8 @@
   "content_scripts": [
     {
       "matches": ["http://www.serebii.net/pokedex-sm/*.shtml"],
-      "css": ["styles.css"]
+      "css": ["styles.css"],
+      "js": ["main.js"]
     }
   ]
 }
